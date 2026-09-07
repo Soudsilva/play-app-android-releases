@@ -1,11 +1,9 @@
 # Play Desenvolvimento — Android
 
-Canal de testes do aplicativo Android da Play, separado do sistema web atual.
+Canal público de APKs de teste do aplicativo Android da Play, separado do sistema web atual. O código-fonte permanece privado.
 
-A versão 0.1.11 permite testar a instalação, o mecanismo de atualização, o login nas contas existentes e o menu correspondente ao perfil. Ela mantém a sessão por até dois dias e, dentro desse prazo, abre diretamente o menu sem mostrar o formulário de login. Nome e senha continuam cifrados pelo cofre do Android para preencher o próximo login. Ainda não possui registro de atendimentos ou envio em segundo plano. Não usar para trabalho operacional.
+A versão 0.1.16 incorpora as funções originais das 34 telas, preservando o visual, a navegação e as permissões de cada perfil. As operações de atendimento, clientes, manutenção, estoque, pedidos, Pix, financeiro, produção, gestão e impressão ficam disponíveis no aplicativo instalado.
 
-A 0.1.11 usa a mesma chave definitiva da 0.1.9 e pode ser instalada pelo botão de atualização do aplicativo. A reinstalação manual foi necessária somente na passagem da 0.1.8 para a 0.1.9.
+A prévia do navegador continua impedida de gravar. A fila local do atendimento vincula cada pendência ao usuário e confirma as etapas remotas antes de concluí-la. O envio garantido com o aplicativo fechado ainda depende de um processo Android agendado e precisa de validação separada.
 
-O pacote está registrado no Android Developer Console gratuito. Somente os celulares autorizados nessa conta poderão instalar o aplicativo quando a verificação obrigatória do Android estiver ativa.
-
-As Releases contêm o APK e o arquivo `update.json` que informa a versão disponível. O aplicativo mostra um botão amarelo na parte superior ao abrir ou retornar e só inicia uma atualização compatível após o usuário tocar nele. A instalação depende da confirmação solicitada pelo Android.
+As Releases contêm o APK e o arquivo `update.json`. Uma instalação anterior deve mostrar o botão amarelo de atualização ao abrir ou retornar ao aplicativo. O download começa após o toque do usuário e a instalação depende da confirmação do Android.
