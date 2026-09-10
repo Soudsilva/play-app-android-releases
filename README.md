@@ -1,9 +1,9 @@
-# Play Desenvolvimento — Android
+# Play — Android
 
 Canal público de APKs de teste do aplicativo Android da Play, separado do sistema web atual. O código-fonte permanece privado.
 
-A versão 0.1.16 incorpora as funções originais das 34 telas, preservando o visual, a navegação e as permissões de cada perfil. As operações de atendimento, clientes, manutenção, estoque, pedidos, Pix, financeiro, produção, gestão e impressão ficam disponíveis no aplicativo instalado.
+A versão 0.1.25 acelera a abertura da seleção de rotas. Os atendimentos continuam atualizados em tempo real, usando somente o período recente necessário para decidir quais clientes foram atendidos.
 
-A prévia do navegador continua impedida de gravar. A fila local do atendimento vincula cada pendência ao usuário e confirma as etapas remotas antes de concluí-la. O envio garantido com o aplicativo fechado ainda depende de um processo Android agendado e precisa de validação separada.
+Verificar Envios reúne a lista real em tempo real com as pendências do próprio usuário. O envio continua ativo em segundo plano e a área de Contratos e Acordos passa a exibir equipe, metas, regras, reserva e documentos pelos dados disponíveis.
 
 As Releases contêm o APK e o arquivo `update.json`. Uma instalação anterior deve mostrar o botão amarelo de atualização ao abrir ou retornar ao aplicativo. O download começa após o toque do usuário e a instalação depende da confirmação do Android.
